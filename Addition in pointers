@@ -1,0 +1,15 @@
+CODE:
+ 
+#include<stdio.h>
+void main()
+{
+int a[10]={0,1,2,3,4,5};
+int*p;
+p=&a[0];
+p=p+5;
+printf("ADDED VALUE IS:%d ",*p);
+}
+
+OUTPUT:
+
+ADDED VALUE IS:5 
